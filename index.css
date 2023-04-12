@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.color{
+    border: 2px solid black;
+    width: 20%;
+    height: 100vh;
+    background-color:rgb(224, 69, 186);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.badWord{
+    align-self: center;
+    font-family: sans-serif;
+    font-size: 32px;
+    cursor: pointer;
+}
+.badWord:hover{
+    opacity: .3;
+}
